@@ -1,0 +1,37 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: azure;
+}
+
+.maintitle{
+ text-align: center;
+ color: blueviolet;
+ padding: 100;
+ border: solid blueviolet 10px);
+ background-color: bisque;
+
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap 10px;
+}
+
+.option{
+    width: 100px;
+    height: 100px;
+    flex: auto;
+    padding: 75px;
+}
+
+.instructions{
+    text-align: center;
+    padding: 50px;
+}
